@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Serveis - EIS Empordà</title>
+        <meta name="viewport" content="width=device-width">
+
+		<link rel="shortcut icon" type="image/png" href="img/logos/logoeistr.png"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/icomoon-social.css">
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,800' type='text/css'>
+        <link rel="stylesheet" href="css/leaflet.css" />
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/jquery.lighter.css">
+		<link rel="stylesheet" href="remodal/dist/remodal.css">
+		<link rel="stylesheet" href="remodal/dist/remodal-default-theme.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js" type="text/javascript"></script>
+
+        <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<script src="js/jquery.lighter.js"></script>
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+		<script src="remodal/dist/remodal.min.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+		<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+		<!-- Cookies -->
+		<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+		<script>
+		window.addEventListener("load", function(){
+		window.cookieconsent.initialise({
+		"palette": {
+			"popup": {
+			"background": "#237afc"
+			},
+			"button": {
+			"background": "#fff",
+			"text": "#237afc"
+			}
+		},
+		"theme": "classic",
+		"content": {
+			"message": "Aquest lloc web pot utilitzar algunes 'cookies' per millorar la vostra navegació. Si us plau, abans de continuar amb la seva navegació pel nostre lloc web, li recomanem que llegeixi la ",
+			"dismiss": "Acceptar!",
+			"link": "política de cookies",
+			"href": "cookies.html"
+		}
+		})});
+		</script>
+    </head>
+    <body>
+	<!-- Navbar-->
+        <div class="mainmenu-wrapper">
+	        <div class="container">
+		        <nav id="mainmenu" class="mainmenu">
+					<ul>
+					<!--Logo-->
+						<li class="logo-wrapper"><a href="index.html"><img src="img/logoeis.png" alt="Logo EIS Empordà" height="40"></a></li>
+					<!--Inici-->
+						<li>
+							<a href="index.html">Inici</a>
+						</li>
+					<!--Qui som-->
+						<li>
+							<a href="qui-som.html">Qui som</a>
+						</li>
+					<!--Serveis-->
+						<li class="active">
+							<a href="serveis.html">Serveis</a>
+						</li>
+					<!--Software-->
+						<li>
+							<a href="software.html">Software</a>
+						</li>
+					<!--Descarregues-->
+						<li class="has-submenu">
+							<a href="#">Descàrregues <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+							<div class="mainmenu-submenu">
+								<div class="mainmenu-submenu-inner"> 
+									<div>
+										<h4>Software</h4>
+										<ul>
+											<li><a href="index.html">TeamViewer</a></li>
+										</ul>
+									</div>
+									<div>
+										<h4>Càtalegs</h4>
+										<ul>
+											<li><a href="catalegs.html">Catàlegs</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+					<!--Botiga online-->
+						<li>
+							<a href="http://www.ncsfigueres.com/" >Botiga online</a>
+						</li>
+					<!--Noticies-->
+						<li>
+							<a href="noticies.html">Notícies</a>
+						</li>
+					<!--Idioma-->
+						<li>
+							<a href="esp/servicios.html" style="padding-right: 10px; padding-left: 10px;"><img src="img/flags/spanish.png" height="20px" alt=""></a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+    <!-- Títol -->
+		<div class="section section-breadcrumbs">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Serveis</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	<!-- Serveis -->
+		<div class="section">
+	        <div class="container">
+			<!--SERVEIS-->
+				<div class="col-sm-8">
+					<div class="row service-wrapper-row">
+						<div class="col-sm-4">
+							<div class="service-image">
+								<img src="img/serveis/servei1.png" alt="Manteniment i assesorament informàtic">
+							</div>
+						</div>
+						<div class="col-sm-8">
+							<h3>MANTENIMENT I ASSESORAMENT INFORMÀTIC</h3>
+							<p>Atenem i resolem qualsevol incidència informàtica que es pugui produir a la seva empresa.</p>
+							<p>L’assessorem a l’hora d’informatitzar el seu negoci.</p>
+							<p>Disposem de diferents modalitats de contractes de manteniment.</p>
+							<p>Instal·lacions multimèdia, sistemes de projecció, pissarres digitals interactives.</p>
+						</div>
+					</div>
+					<div class="row service-wrapper-row">
+						<div class="col-sm-4">
+							<div class="service-image">
+								<img src="img/serveis/servei2.png" alt="Software">
+							</div>
+						</div>
+						<div class="col-sm-8">
+							<h3>SOFTWARE</h3>
+							<p>SAGE Service Partner i Assessors de Negoci de SAGE (ContaPlus, FacturaPlus).</p>
+							<p>Distribuïdor oficial AIG Software de Gestió.</p>
+							<p>Distribuïdor oficial iGes, software televenda que connecta amb la teva aplicació de gestió.</p>
+							<p>REVOxef.</p>
+							<p>Panda Business Partner.</p>
+							<p>Office 365.</p>
+						</div>
+					</div>
+					<div class="row service-wrapper-row">
+						<div class="col-sm-4">
+							<div class="service-image">
+								<img src="img/serveis/servei3.png" alt="Xarxes / Servidors">
+							</div>
+						</div>
+						<div class="col-sm-8">
+							<h3>XARXES / SERVIDORS</h3>
+							<p>Fem l’estudi previ, instal·lació i/o configuració de la xarxa de l’empresa.</p>
+							<p>Sistemes Cloud.</p>
+							<p>Servidors virtuals.</p>
+							<p>Configuració dels recursos compartits i control accés.</p>
+						</div>
+					</div>
+					<div class="row service-wrapper-row">
+						<div class="col-sm-4">
+							<div class="service-image">
+								<img src="img/serveis/servei4.png" alt="Còpies de seguretat">
+							</div>
+						</div>
+						<div class="col-sm-8">
+							<h3>CÒPIES DE SEGURETAT</h3>
+							<p>Sistema de còpies de seguretat local i remot.</p>
+						</div>
+					</div>
+					<div class="row service-wrapper-row">
+						<div class="col-sm-4">
+							<div class="service-image">
+								<img src="img/serveis/servei5.png" alt="Disseny web">
+							</div>
+						</div>
+						<div class="col-sm-8">
+							<h3>DISSENY WEB</h3>
+							<p>Disseny i creació de pàgines web.</p>
+							<p>Comerç electrònic.</p>
+							<p>Disseny d'Apps per a smartphones i tablets.</p>
+						</div>
+					</div>
+					<div class="row service-wrapper-row">
+						<div class="col-sm-4">
+							<div class="service-image">
+								<img src="img/serveis/servei6.png" alt="Videovigilància">
+							</div>
+						</div>
+						<div class="col-sm-8">
+							<h3>VIDEOVIGILÀNCIA</h3>
+							<p>Videovigilància.</p>
+							<p>Control d'accés.</p>
+						</div>
+					</div>
+					<div class="row service-wrapper-row">
+						<div class="col-sm-4">
+							<div class="service-image">
+								<img src="img/serveis/servei7.png" alt="Educació">
+							</div>
+						</div>
+						<div class="col-sm-8">
+							<h3>EDUCACIÓ</h3>
+							<p>Pissarres digitals.</p>
+							<p>Sistemes de projecció.</p>
+							<p>Aules multimedia.</p>
+							<p>Equipament informàtic.</p>
+						</div>
+					</div>			
+				</div>
+			<!--FORMULARI-->
+				<div class="col-sm-4">
+					
+					<form action="formulari.php" method="POST" role="form">
+						<legend>Sol·licitud d'un servei</legend>
+						<div class="form-group">
+						<!--Camps Formulari-->
+							<label for="">Nom *</label>
+							<input type="text" name="nom" class="form-control" required><br>
+							<label for="">E-mail *</label>
+							<input type="email" name="email" class="form-control" required><br>
+							<label for="">Població</label>
+							<input type="text" name="poblacio" class="form-control"><br>
+							<label for="">Assumpte</label>
+							<input type="text" name="assumpte" class="form-control"><br>
+							<label for="">Missatge *</label>
+							<textarea name="missatge" class="form-control" rows="7" required style="resize: none"></textarea>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="" required>
+									He llegit i accepto la <a href="#modal">política de privacitat</a> *
+								</label>
+							</div>
+						<!--Popups Modals-->
+							<div class="remodal" data-remodal-id="modal">
+								<button data-remodal-action="close" class="remodal-close"></button>
+								<p style="text-align:justify">
+									En compliment del que estableix la Llei 34/2002, de Serveis de la Societat de la Informació i el Comerç Electrònic, en la Llei Orgànica 15/1999, de 13 de desembre, de Protecció de Dades de Caràcter Personal i els seus reglaments de desenvolupament, EIS Empordà, SL l'informa que les dades de caràcter personal proporcionades a través dels formularis d'informació quedaran incorporades a un fitxer per al seu tractament automatitzat, amb la finalitat de prestar i oferir els nostres serveis, entenent-se per tant concedit el consentiment exprés per a la recepció de comunicacions comercials per via electrònica en els estrictes termes que es recullen en les presents condicions legals. Les dades recollides són emmagatzemades sota la confidencialitat i les mesures de seguretat legalment establertes i no seran cedides ni compartides amb empreses ni entitats alienes al responsable legal de la web.
+								</p>
+								<br>
+							</div>
+							<div class="remodal" data-remodal-id="modal2">
+								<button data-remodal-action="close" class="remodal-close"></button>
+								<p style="text-align:justify">
+									Contactarem amb vostè per comentar el problema el més aviat possible.
+								</p>
+								<br>
+							</div>
+							<div class="remodal" data-remodal-id="modal3">
+								<button data-remodal-action="close" class="remodal-close"></button>
+								<p style="text-align:justify">
+									La sol·licitud no s'ha pogut enviar correctament. Torna-ho a provar més tard.
+								</p>
+								<br>
+							</div>				
+						</div>
+						<!--Captcha Google-->
+							<div 	class="g-recaptcha" 
+									data-callback="capcha_filled"
+									data-expired-callback="capcha_expired"
+									data-sitekey="6LcR9B4UAAAAAEqzD52Ze_DG-2Gg5efquUSq9WTK">
+							</div><br>
+						<!--Botó Submit-->
+							<button type="submit" id="form-servei" class="btn btn-primary" disabled>Enviar</button>
+					</form>
+				</div>
+	        </div>
+	    </div>
+
+	<!-- Footer -->
+	    <div class="footer">
+	    	<div class="container">
+		    	<div class="row">
+		    		<div class="col-footer col-md-4 col-xs-6">
+		    			<h3>Menú</h3>
+						<div class="col-sm-4">
+							<ul class="no-list-style footer-navigate-section">
+								<li><a href="index.html">Inici</a></li>
+								<li><a href="qui-som.html">Qui som</a></li>
+								<li><a href="serveis.html">Serveis</a></li>
+								<li><a href="software.html">Software</a></li>
+							</ul>
+						</div>
+						<div class="col-sm-4">
+							<ul class="no-list-style footer-navigate-section">
+								<li><a href="https://download.teamviewer.com/download/TeamViewer_Setup_es.exe">TeamViewer</a></li>
+								<li><a href="catalegs.html">Catàlegs</a></li>
+								<li><a href="http://www.ncsfigueres.com/">Botiga online</a></li>
+								<li><a href="noticies.html">Notícies</a></li>
+							</ul>
+						</div>
+						<div class="col-sm-4">
+							<ul class="no-list-style footer-navigate-section">
+								<li><a href="avis-legal.html">Avís legal</a></li>
+								<li><a href="cookies.html">Cookies</a></li>
+							</ul>
+						</div>
+		    		</div>
+		    		
+		    		<div class="col-footer col-md-6 col-xs-6">
+		    			<h3>Contacte</h3>
+						<div class="col-sm-3">
+							<img src="img/logoeis.png" style="background-color: white; border-radius: 15px;" width="100%" alt="">
+						</div>
+						<div class="col-sm-9">
+							<p class="contact-us-details">
+								<b><i class="fa fa-map-marker" aria-hidden="true"></i></b>&nbsp&nbsp Carrer Sant Pau 82 A, Figueres - 17600<br/>
+								<b><i class="fa fa-phone" aria-hidden="true"></i></b>&nbsp&nbsp 972 673 100<br/>
+								<b><i class="fa fa-envelope" aria-hidden="true"></i></b>&nbsp&nbsp <a href="mailto:info@eisemporda.com">info@eisemporda.com</a>
+							</p>
+						</div>
+		    		</div>
+		    		<div class="col-footer col-md-2 col-xs-6">
+		    			<h3>Segueix-nos</h3>
+		    			<ul class="footer-stay-connected no-list-style">
+		    				<li><a href="https://www.facebook.com/EisEmporda/" class="facebook"></a></li>
+		    				<li><a href="https://twitter.com/eisemporda" class="twitter"></a></li>
+		    			</ul>
+		    		</div>
+		    	</div>
+		    	<div class="row">
+		    		<div class="col-md-12">
+		    			<div class="footer-copyright">
+                            Copyright &copy; 2017 · EIS Empordà · Tots els drets reservats · Web dissenyada per: Arnau Molas i Vilà.
+                        </div>
+		    		</div>
+		    	</div>
+		    </div>
+	    </div>
+
+    <!-- Javascripts -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
+        <script src="js/jquery.fitvids.js"></script>
+        <script src="js/jquery.sequence-min.js"></script>
+        <script src="js/jquery.bxslider.js"></script>
+        <script src="js/main-menu.js"></script>
+        <script src="js/template.js"></script>
+		<script>
+			$(document).ready(function(){
+				setInterval(function(){ 
+					if(allowSubmit) {
+						$("#form-servei").prop("disabled", false);
+					}
+				}, 500);
+			});
+
+			var allowSubmit = false;
+
+			function capcha_filled () {
+				allowSubmit = true;
+			}
+
+			function capcha_expired () {
+				allowSubmit = false;
+			}
+		</script>
+    </body>
+</html>
